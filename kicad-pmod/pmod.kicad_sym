@@ -1,0 +1,5597 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "PMOD-Device-x1-Type-1-GPIO"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "PMOD"
+			(at -3.302 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOD-Device-x1-Type-1-GPIO"
+			(at -8.89 -0.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Pin_Headers:Pin_Header_Angled_1x06"
+			(at -10.668 -0.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.google.com/a/mithis.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1WEORo1LAIt92hk1bZGEoo/edit#gid=0"
+			(at -1.27 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "PMOD Device Type 1 (GPIO)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMOD, Digilent, Device, Type 1, GPIO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Pin_Header_Straight_1X06 Pin_Header_Angled_1X06 Socket_Strip_Straight_1X06 Socket_Strip_Angled_1X06"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PMOD-Device-x1-Type-1-GPIO_0_0"
+			(text "Type 1 - GPIO"
+				(at -7.366 0 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x1-Type-1-GPIO_0_1"
+			(rectangle
+				(start 0 15.24)
+				(end -6.35 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x1-Type-1-GPIO_1_1"
+			(pin bidirectional line
+				(at 3.81 13.97 180)
+				(length 3.81)
+				(name "IO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 11.43 180)
+				(length 3.81)
+				(name "IO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 8.89 180)
+				(length 3.81)
+				(name "IO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 6.35 180)
+				(length 3.81)
+				(name "IO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 3.81 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 1.27 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PMOD-Device-x1-Type-2-SPI"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "PMOD"
+			(at -3.302 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOD-Device-x1-Type-2-SPI"
+			(at -8.89 -0.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Pin_Headers:Pin_Header_Angled_1x06"
+			(at -10.668 -0.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.google.com/a/mithis.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1WEORo1LAIt92hk1bZGEoo/edit#gid=0"
+			(at -1.27 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "PMOD Device Type 2 (SPI)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMOD, Digilent, Device, Type 2, SPI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Pin_Header_Straight_1X06 Pin_Header_Angled_1X06 Socket_Strip_Straight_1X06 Socket_Strip_Angled_1X06"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PMOD-Device-x1-Type-2-SPI_0_0"
+			(text "Type 2 - SPI"
+				(at -7.366 0 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x1-Type-2-SPI_0_1"
+			(rectangle
+				(start 0 15.24)
+				(end -6.35 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x1-Type-2-SPI_1_1"
+			(pin output line
+				(at 3.81 13.97 180)
+				(length 3.81)
+				(name "SS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 11.43 180)
+				(length 3.81)
+				(name "MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 8.89 180)
+				(length 3.81)
+				(name "MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output clock
+				(at 3.81 6.35 180)
+				(length 3.81)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 3.81 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 1.27 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PMOD-Device-x1-Type-3-UART"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "PMOD"
+			(at -3.302 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOD-Device-x1-Type-3-UART"
+			(at -8.89 -0.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Pin_Headers:Pin_Header_Angled_1x06"
+			(at -10.668 -0.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.google.com/a/mithis.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1WEORo1LAIt92hk1bZGEoo/edit#gid=0"
+			(at -1.27 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "PMOD Device Type 3 (UART)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMOD, Digilent, Device, Type 3, UART"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Pin_Header_Straight_2X06 Pin_Header_Angled_2X06 Socket_Strip_Straight_2X06 Socket_Strip_Angled_2X06"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PMOD-Device-x1-Type-3-UART_0_0"
+			(text "Type 3 - UART"
+				(at -7.366 0 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x1-Type-3-UART_0_1"
+			(rectangle
+				(start 0 15.24)
+				(end -6.35 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x1-Type-3-UART_1_1"
+			(pin output line
+				(at 3.81 13.97 180)
+				(length 3.81)
+				(name "CTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 11.43 180)
+				(length 3.81)
+				(name "RTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 8.89 180)
+				(length 3.81)
+				(name "RXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 6.35 180)
+				(length 3.81)
+				(name "TXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 3.81 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 1.27 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PMOD-Device-x1-Type-4-UART"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "PMOD"
+			(at -3.302 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOD-Device-x1-Type-4-UART"
+			(at -8.89 -0.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Pin_Headers:Pin_Header_Angled_1x06"
+			(at -10.668 -0.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.google.com/a/mithis.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1WEORo1LAIt92hk1bZGEoo/edit#gid=0"
+			(at -1.27 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "PMOD Device Type 4 (UART)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMOD, Digilent, Device, Type 4, UART"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Pin_Header_Straight_2X06 Pin_Header_Angled_2X06 Socket_Strip_Straight_2X06 Socket_Strip_Angled_2X06"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PMOD-Device-x1-Type-4-UART_0_0"
+			(text "Type 4 - UART"
+				(at -7.366 0 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x1-Type-4-UART_0_1"
+			(rectangle
+				(start 0 15.24)
+				(end -6.35 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x1-Type-4-UART_1_1"
+			(pin input line
+				(at 3.81 13.97 180)
+				(length 3.81)
+				(name "CTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 11.43 180)
+				(length 3.81)
+				(name "TXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 8.89 180)
+				(length 3.81)
+				(name "RXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 6.35 180)
+				(length 3.81)
+				(name "RTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 3.81 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 1.27 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PMOD-Device-x2-Type-1A-GPIO"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "PMOD"
+			(at -3.302 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOD-Device-x2-Type-1A-GPIO"
+			(at -9.144 -18.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "pmod-conn_6x2:pmod_pin_array_6x2"
+			(at -11.43 -18.034 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.google.com/a/mithis.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1WEORo1LAIt92hk1bZGEoo/edit#gid=0"
+			(at -1.27 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "PMOD Device Type 1A (Expanded/Dual GPIO)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMOD, Digilent, Device, Type 1A, GPIO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "pmod_pin_array_6x2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-1A-GPIO_0_0"
+			(text "(Closest to the edge)"
+				(at -5.842 -13.462 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "(Furthest from the edge)"
+				(at -5.842 5.08 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "Bottom Row"
+				(at -7.366 -13.462 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "GPIO"
+				(at -6.604 16.51 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+			(text "Top Row"
+				(at -7.366 3.302 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Type 1A"
+				(at -6.604 18.288 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-1A-GPIO_0_1"
+			(rectangle
+				(start -6.35 -2.54)
+				(end 0 -17.78)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 15.24)
+				(end -6.35 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-1A-GPIO_1_1"
+			(pin bidirectional line
+				(at 3.81 13.97 180)
+				(length 3.81)
+				(name "IOA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -11.43 180)
+				(length 3.81)
+				(name "IOB3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 -13.97 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 -16.51 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 11.43 180)
+				(length 3.81)
+				(name "IOA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 8.89 180)
+				(length 3.81)
+				(name "IOA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 6.35 180)
+				(length 3.81)
+				(name "IOA3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 3.81 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 1.27 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -3.81 180)
+				(length 3.81)
+				(name "IOB0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -6.35 180)
+				(length 3.81)
+				(name "IOB1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -8.89 180)
+				(length 3.81)
+				(name "IOB2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PMOD-Device-x2-Type-2A-Expanded-SPI"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "PMOD"
+			(at -3.302 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOD-Device-x2-Type-2A-Expanded-SPI"
+			(at -9.144 -18.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "pmod-conn_6x2:pmod_pin_array_6x2"
+			(at -11.43 -18.034 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.google.com/a/mithis.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1WEORo1LAIt92hk1bZGEoo/edit#gid=0"
+			(at -1.27 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "PMOD Device Type 1A (Expanded SPI)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMOD, Digilent, Device, Type 2A, Expanded SPI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "pmod_pin_array_6x2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-2A-Expanded-SPI_0_0"
+			(text "(Closest to the edge)"
+				(at -5.842 -13.462 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "(Furthest from the edge)"
+				(at -5.842 5.08 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "Bottom Row"
+				(at -7.366 -13.462 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Expanded SPI"
+				(at -6.604 16.51 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+			(text "Top Row"
+				(at -7.366 3.302 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Type 2A"
+				(at -6.604 18.288 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-2A-Expanded-SPI_0_1"
+			(rectangle
+				(start -6.35 -2.54)
+				(end 0 -17.78)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 15.24)
+				(end -6.35 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-2A-Expanded-SPI_1_1"
+			(pin output line
+				(at 3.81 13.97 180)
+				(length 3.81)
+				(name "SS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at 3.81 -11.43 180)
+				(length 3.81)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 -13.97 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 -16.51 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 11.43 180)
+				(length 3.81)
+				(name "MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 8.89 180)
+				(length 3.81)
+				(name "MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output clock
+				(at 3.81 6.35 180)
+				(length 3.81)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 3.81 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 1.27 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 -3.81 180)
+				(length 3.81)
+				(name "INT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 -6.35 180)
+				(length 3.81)
+				(name "RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at 3.81 -8.89 180)
+				(length 3.81)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PMOD-Device-x2-Type-4A+-Expanded-UART"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "PMOD"
+			(at -3.302 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOD-Device-x2-Type-4A+-Expanded-UART"
+			(at -9.144 -18.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "pmod-conn_6x2:pmod_pin_array_6x2"
+			(at -11.43 -18.034 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.google.com/a/mithis.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1WEORo1LAIt92hk1bZGEoo/edit#gid=0"
+			(at -1.27 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "PMOD Device Type 4A (Expanded UART)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMOD, Digilent, Device, Type 4A, Expanded UART"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "pmod_pin_array_6x2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-4A+-Expanded-UART_0_0"
+			(text "(Closest to the edge)"
+				(at -5.842 -13.462 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "(Furthest from the edge)"
+				(at -5.842 5.08 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "Bottom Row"
+				(at -7.366 -13.462 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Expanded UART"
+				(at -6.604 16.51 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+			(text "Top Row"
+				(at -7.366 3.302 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Type 4A+"
+				(at -6.604 18.288 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-4A+-Expanded-UART_0_1"
+			(rectangle
+				(start -6.35 -2.54)
+				(end 0 -17.78)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 15.24)
+				(end -6.35 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-4A+-Expanded-UART_1_1"
+			(pin input line
+				(at 3.81 13.97 180)
+				(length 3.81)
+				(name "CTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -11.43 180)
+				(length 3.81)
+				(name "NC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 -13.97 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 -16.51 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 11.43 180)
+				(length 3.81)
+				(name "TXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 8.89 180)
+				(length 3.81)
+				(name "RXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 6.35 180)
+				(length 3.81)
+				(name "RTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 3.81 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 1.27 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 -3.81 180)
+				(length 3.81)
+				(name "INT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 -6.35 180)
+				(length 3.81)
+				(name "RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -8.89 180)
+				(length 3.81)
+				(name "NC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PMOD-Device-x2-Type-4A-Expanded-UART"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "PMOD"
+			(at -3.302 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOD-Device-x2-Type-4A-Expanded-UART"
+			(at -9.144 -18.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "pmod-conn_6x2:pmod_pin_array_6x2"
+			(at -11.43 -18.034 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.google.com/a/mithis.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1WEORo1LAIt92hk1bZGEoo/edit#gid=0"
+			(at -1.27 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "PMOD Device Type 4A (Expanded UART)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMOD, Digilent, Device, Type 4A, Expanded UART"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "pmod_pin_array_6x2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-4A-Expanded-UART_0_0"
+			(text "(Closest to the edge)"
+				(at -5.842 -13.462 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "(Furthest from the edge)"
+				(at -5.842 5.08 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "Bottom Row"
+				(at -7.366 -13.462 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Expanded UART"
+				(at -6.604 16.51 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+			(text "Top Row"
+				(at -7.366 3.302 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Type 4A"
+				(at -6.604 18.288 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-4A-Expanded-UART_0_1"
+			(rectangle
+				(start -6.35 -2.54)
+				(end 0 -17.78)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 15.24)
+				(end -6.35 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-4A-Expanded-UART_1_1"
+			(pin input line
+				(at 3.81 13.97 180)
+				(length 3.81)
+				(name "CTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at 3.81 -11.43 180)
+				(length 3.81)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 -13.97 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 -16.51 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 11.43 180)
+				(length 3.81)
+				(name "TXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 8.89 180)
+				(length 3.81)
+				(name "RXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 6.35 180)
+				(length 3.81)
+				(name "RTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 3.81 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 1.27 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 -3.81 180)
+				(length 3.81)
+				(name "INT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 -6.35 180)
+				(length 3.81)
+				(name "RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at 3.81 -8.89 180)
+				(length 3.81)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PMOD-Device-x2-Type-Generic-Alt"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "P"
+			(at 2.54 16.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PMOD-Device-x2-Type-Generic-Alt"
+			(at 2.286 -1.016 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+			)
+		)
+		(property "Footprint" "pmod-conn_6x2:pmod_pin_array_6x2"
+			(at 2.54 -2.794 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-Generic-Alt_0_0"
+			(text "(Pins closest to edge)"
+				(at -4.064 17.272 0)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify top)
+				)
+			)
+			(text "(Pins furthest from edge)"
+				(at 8.763 17.272 0)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify top)
+				)
+			)
+			(text "BOTTOM ROW"
+				(at -4.064 18.288 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify top)
+				)
+			)
+			(text "GND"
+				(at -6.35 4.445 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "GND"
+				(at 11.43 4.445 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "TOP ROW"
+				(at 8.763 18.288 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify top)
+				)
+			)
+			(text "VCC"
+				(at -6.35 1.905 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "VCC"
+				(at 11.43 1.905 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-Generic-Alt_0_1"
+			(rectangle
+				(start 5.08 15.24)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-Generic-Alt_1_1"
+			(pin passive inverted
+				(at 12.7 13.97 180)
+				(length 7.62)
+				(name "P1"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 6.35 0)
+				(length 7.62)
+				(name "P10"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 3.81 0)
+				(length 7.62)
+				(name "P11"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 1.27 0)
+				(length 7.62)
+				(name "P12"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 12.7 11.43 180)
+				(length 7.62)
+				(name "P2"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 12.7 8.89 180)
+				(length 7.62)
+				(name "P3"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 12.7 6.35 180)
+				(length 7.62)
+				(name "P4"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 12.7 3.81 180)
+				(length 7.62)
+				(name "P5"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 12.7 1.27 180)
+				(length 7.62)
+				(name "P6"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 13.97 0)
+				(length 7.62)
+				(name "P7"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 11.43 0)
+				(length 7.62)
+				(name "P8"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 8.89 0)
+				(length 7.62)
+				(name "P9"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PMOD-Device-x2-Type-XADC"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "PMOD"
+			(at -3.302 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOD-Device-x2-Type-XADC"
+			(at -9.144 -18.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "pmod-conn_6x2:pmod_pin_array_6x2"
+			(at -11.43 -18.034 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.google.com/a/mithis.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1WEORo1LAIt92hk1bZGEoo/edit#gid=0"
+			(at -1.27 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "PMOD Device Type 4A (Expanded UART)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMOD, Digilent, Device, Type 4A, Expanded UART"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "pmod_pin_array_6x2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-XADC_0_0"
+			(text "(Closest to the edge)"
+				(at -5.842 -13.462 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "(Furthest from the edge)"
+				(at -5.842 5.08 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "Bottom Row"
+				(at -7.366 -13.462 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Top Row"
+				(at -7.366 3.302 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-XADC_0_1"
+			(rectangle
+				(start -6.35 -2.54)
+				(end 0 -17.78)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 15.24)
+				(end -6.35 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-XADC_1_1"
+			(pin bidirectional line
+				(at 3.81 13.97 180)
+				(length 3.81)
+				(name "J1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional inverted
+				(at 3.81 -11.43 180)
+				(length 3.81)
+				(name "J4_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 -13.97 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 -16.51 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 11.43 180)
+				(length 3.81)
+				(name "J2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 8.89 180)
+				(length 3.81)
+				(name "J3_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 6.35 180)
+				(length 3.81)
+				(name "J4_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 3.81 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 1.27 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional inverted
+				(at 3.81 -3.81 180)
+				(length 3.81)
+				(name "J1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional inverted
+				(at 3.81 -6.35 180)
+				(length 3.81)
+				(name "J2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional inverted
+				(at 3.81 -8.89 180)
+				(length 3.81)
+				(name "J3_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PMOD-Device-x2-Type-XADC-Alt"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "P"
+			(at 2.54 16.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PMOD-Device-x2-Type-XADC-Alt"
+			(at 2.286 -1.016 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+			)
+		)
+		(property "Footprint" "pmod-conn_6x2:pmod_pin_array_6x2"
+			(at 2.54 -2.794 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-XADC-Alt_0_0"
+			(polyline
+				(pts
+					(xy 0 13.97) (xy 5.08 13.97)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 6.35) (xy 0 6.35)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 8.89) (xy 0 8.89)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 11.43) (xy 0 11.43)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "(Pins closest to edge)"
+				(at -4.064 17.272 0)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify top)
+				)
+			)
+			(text "(Pins furthest from edge)"
+				(at 8.763 17.272 0)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify top)
+				)
+			)
+			(text "1"
+				(at 2.54 14.732 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "3"
+				(at 2.54 9.652 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "4"
+				(at 2.54 7.112 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "BOTTOM ROW"
+				(at -4.064 18.288 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify top)
+				)
+			)
+			(text "GND"
+				(at -6.35 4.445 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "GND"
+				(at 11.43 4.445 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "N"
+				(at 0.508 6.858 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "N"
+				(at 0.508 9.398 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "N"
+				(at 0.508 11.938 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "N"
+				(at 0.508 14.478 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "P"
+				(at 4.572 6.858 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "P"
+				(at 4.572 9.398 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "P"
+				(at 4.572 11.938 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "P"
+				(at 4.572 14.478 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "TOP ROW"
+				(at 8.763 18.288 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify top)
+				)
+			)
+			(text "VCC"
+				(at -6.35 1.905 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "VCC"
+				(at 11.43 1.905 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-XADC-Alt_0_1"
+			(rectangle
+				(start 5.08 15.24)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-XADC-Alt_1_0"
+			(text "2"
+				(at 2.54 12.192 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-XADC-Alt_1_1"
+			(pin passive line
+				(at 12.7 13.97 180)
+				(length 7.62)
+				(name "JA1_P"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 6.35 0)
+				(length 7.62)
+				(name "JA4_N"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive non_logic
+				(at -7.62 3.81 0)
+				(length 7.62)
+				(name "P11"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive non_logic
+				(at -7.62 1.27 0)
+				(length 7.62)
+				(name "P12"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 11.43 180)
+				(length 7.62)
+				(name "JA2_P"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 8.89 180)
+				(length 7.62)
+				(name "JA3_P"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 6.35 180)
+				(length 7.62)
+				(name "JA4_P"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive non_logic
+				(at 12.7 3.81 180)
+				(length 7.62)
+				(name "P5"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive non_logic
+				(at 12.7 1.27 180)
+				(length 7.62)
+				(name "P6"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 13.97 0)
+				(length 7.62)
+				(name "JA1_N"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 11.43 0)
+				(length 7.62)
+				(name "JA2_N"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 8.89 0)
+				(length 7.62)
+				(name "JA3_N"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PMOD-Device-x2-Type-XHS"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "PMOD"
+			(at -3.302 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOD-Device-x2-Type-XHS"
+			(at -9.144 -18.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "pmod-conn_6x2:pmod_pin_array_6x2"
+			(at -11.43 -18.034 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.google.com/a/mithis.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1WEORo1LAIt92hk1bZGEoo/edit#gid=0"
+			(at -1.27 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "PMOD Device Type 4A (Expanded UART)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMOD, Digilent, Device, Type 4A, Expanded UART"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "pmod_pin_array_6x2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-XHS_0_0"
+			(text "(Closest to the edge)"
+				(at -5.842 -13.462 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "(Furthest from the edge)"
+				(at -5.842 5.08 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "Bottom Row"
+				(at -7.366 -13.462 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Top Row"
+				(at -7.366 3.302 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-XHS_0_1"
+			(rectangle
+				(start -6.35 -2.54)
+				(end 0 -17.78)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -11.43) (xy -0.508 -11.43) (xy -0.508 -8.89) (xy 0 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.35) (xy -0.508 -6.35) (xy -0.508 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.35) (xy -0.508 6.35) (xy -0.508 8.89) (xy 0 8.89)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 11.43) (xy -0.508 11.43) (xy -0.508 13.97) (xy 0 13.97)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 15.24)
+				(end -6.35 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-XHS_1_1"
+			(pin bidirectional line
+				(at 3.81 13.97 180)
+				(length 3.81)
+				(name "J1_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional inverted
+				(at 3.81 -11.43 180)
+				(length 3.81)
+				(name "J4_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 -13.97 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 -16.51 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional inverted
+				(at 3.81 11.43 180)
+				(length 3.81)
+				(name "J1_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 8.89 180)
+				(length 3.81)
+				(name "J2_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional inverted
+				(at 3.81 6.35 180)
+				(length 3.81)
+				(name "J2_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 3.81 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 1.27 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -3.81 180)
+				(length 3.81)
+				(name "J3_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional inverted
+				(at 3.81 -6.35 180)
+				(length 3.81)
+				(name "J3_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -8.89 180)
+				(length 3.81)
+				(name "J4_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PMOD-Device-x2-Type-XHS-Alt"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "P"
+			(at 2.54 16.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PMOD-Device-x2-Type-XHS-Alt"
+			(at 2.286 -1.016 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+			)
+		)
+		(property "Footprint" "pmod-conn_6x2:pmod_pin_array_6x2"
+			(at 2.54 -2.794 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-XHS-Alt_0_0"
+			(polyline
+				(pts
+					(xy 0 10.16) (xy 5.08 10.16)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 15.24) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.08) (xy 0 5.08)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 8.89)
+				(end 0.762 6.35)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 13.97)
+				(end 0.762 11.176)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 8.89)
+				(end 4.318 6.35)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 11.43)
+				(end 4.318 13.97)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "(Pins closest to edge)"
+				(at -4.064 17.272 0)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify top)
+				)
+			)
+			(text "(Pins furthest from edge)"
+				(at 8.763 17.272 0)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify top)
+				)
+			)
+			(text "1"
+				(at 3.556 12.7 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+				)
+			)
+			(text "2"
+				(at 3.556 7.62 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+				)
+			)
+			(text "3"
+				(at 1.524 12.7 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+				)
+			)
+			(text "4"
+				(at 1.524 7.62 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+				)
+			)
+			(text "BOTTOM ROW"
+				(at -4.064 18.288 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify top)
+				)
+			)
+			(text "GND"
+				(at -6.35 4.445 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "GND"
+				(at 11.43 4.445 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "N"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "N"
+				(at 1.27 11.43 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "N"
+				(at 3.81 6.35 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "N"
+				(at 3.81 11.43 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "P"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "P"
+				(at 1.27 13.97 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "P"
+				(at 3.81 8.89 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "P"
+				(at 3.81 13.97 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "TOP ROW"
+				(at 8.763 18.288 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify top)
+				)
+			)
+			(text "VCC"
+				(at -6.35 1.905 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "VCC"
+				(at 11.43 1.905 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-XHS-Alt_0_1"
+			(rectangle
+				(start 5.08 15.24)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PMOD-Device-x2-Type-XHS-Alt_1_1"
+			(pin passive line
+				(at 12.7 13.97 180)
+				(length 7.62)
+				(name "JA1_P"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 6.35 0)
+				(length 7.62)
+				(name "JA4_N"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive non_logic
+				(at -7.62 3.81 0)
+				(length 7.62)
+				(name "P11"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive non_logic
+				(at -7.62 1.27 0)
+				(length 7.62)
+				(name "P12"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 12.7 11.43 180)
+				(length 7.62)
+				(name "JA1_N"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 8.89 180)
+				(length 7.62)
+				(name "JA2_P"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 12.7 6.35 180)
+				(length 7.62)
+				(name "JA2_N"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive non_logic
+				(at 12.7 3.81 180)
+				(length 7.62)
+				(name "P5"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive non_logic
+				(at 12.7 1.27 180)
+				(length 7.62)
+				(name "P6"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 13.97 0)
+				(length 7.62)
+				(name "JA3_P"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 11.43 0)
+				(length 7.62)
+				(name "JA3_N"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 8.89 0)
+				(length 7.62)
+				(name "JA4_P"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PMOD-Host-x1-GPIO"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "PMOD"
+			(at -1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOD-Host-x1-GPIO"
+			(at 6.35 10.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.27 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Socket_Strip_Straight_1X06 Socket_Strip_Angled_1X06"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PMOD-Host-x1-GPIO_0_1"
+			(rectangle
+				(start 0 15.24)
+				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PMOD-Host-x1-GPIO_1_1"
+			(pin bidirectional line
+				(at -3.81 13.97 0)
+				(length 3.81)
+				(name "IO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 11.43 0)
+				(length 3.81)
+				(name "IO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 8.89 0)
+				(length 3.81)
+				(name "IO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 6.35 0)
+				(length 3.81)
+				(name "IO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in non_logic
+				(at -3.81 3.81 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in non_logic
+				(at -3.81 1.27 0)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PMOD-Host-x2-GPIO"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "PMOD"
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOD-Host-x2-GPIO"
+			(at 7.62 -7.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.27 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Socket_Strip_Straight_2X06 Socket_Strip_Angled_2X06"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PMOD-Host-x2-GPIO_0_1"
+			(rectangle
+				(start 0 15.24)
+				(end 6.35 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 6.35 -2.54)
+				(end 0 -17.78)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PMOD-Host-x2-GPIO_1_1"
+			(pin bidirectional line
+				(at -3.81 13.97 0)
+				(length 3.81)
+				(name "IOA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in non_logic
+				(at -3.81 -13.97 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in non_logic
+				(at -3.81 1.27 0)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in non_logic
+				(at -3.81 -16.51 0)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -3.81 0)
+				(length 3.81)
+				(name "IOB0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 11.43 0)
+				(length 3.81)
+				(name "IOA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -6.35 0)
+				(length 3.81)
+				(name "IOB1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 8.89 0)
+				(length 3.81)
+				(name "IOA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -8.89 0)
+				(length 3.81)
+				(name "IOB2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 6.35 0)
+				(length 3.81)
+				(name "IOA3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -11.43 0)
+				(length 3.81)
+				(name "IOB3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in non_logic
+				(at -3.81 3.81 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "QMOD-Device-x2-Type-1A-GPIO"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "QMOD"
+			(at -3.302 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QMOD-Device-x2-Type-1A-GPIO"
+			(at -9.144 -18.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Pin_Headers:Pin_Header_Straight_2x06"
+			(at -11.43 -18.034 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.google.com/a/mithis.com/spreadsheets/d/1D-GboyrP57VVpejQzEm0P1WEORo1LAIt92hk1bZGEoo/edit#gid=0"
+			(at -1.27 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "PMOD Device Type 1A (Expanded/Dual GPIO)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMOD, Digilent, Device, Type 1A, GPIO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "pmod_pin_array_6x2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "QMOD-Device-x2-Type-1A-GPIO_0_0"
+			(text "(Closest to the edge)"
+				(at -5.842 -13.462 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "(Furthest from the edge)"
+				(at -5.842 5.08 900)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "Bottom Row"
+				(at -7.366 -13.462 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "GPIO"
+				(at -6.604 16.51 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+			(text "Top Row"
+				(at -7.366 3.302 900)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Type 1A"
+				(at -6.604 18.288 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify left)
+				)
+			)
+		)
+		(symbol "QMOD-Device-x2-Type-1A-GPIO_0_1"
+			(rectangle
+				(start -6.35 -2.54)
+				(end 0 -17.78)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 15.24)
+				(end -6.35 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "QMOD-Device-x2-Type-1A-GPIO_1_1"
+			(pin bidirectional line
+				(at 3.81 -3.81 180)
+				(length 3.81)
+				(name "IOB0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 3.81 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 -16.51 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 1.27 180)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 13.97 180)
+				(length 3.81)
+				(name "IOA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -6.35 180)
+				(length 3.81)
+				(name "IOB1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 11.43 180)
+				(length 3.81)
+				(name "IOA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -8.89 180)
+				(length 3.81)
+				(name "IOB2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 8.89 180)
+				(length 3.81)
+				(name "IOA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -11.43 180)
+				(length 3.81)
+				(name "IOB3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 6.35 180)
+				(length 3.81)
+				(name "IOA3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out non_logic
+				(at 3.81 -13.97 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "QMOD-Device-x2-Type-Generic-Alt"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "P"
+			(at 2.54 16.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "QMOD-Device-x2-Type-Generic-Alt"
+			(at 2.286 -1.016 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+			)
+		)
+		(property "Footprint" "pmod-conn_6x2:pmod_pin_array_6x2"
+			(at 2.54 -2.794 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "QMOD-Device-x2-Type-Generic-Alt_0_0"
+			(text "(Pins closest to edge)"
+				(at -4.064 17.272 0)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify top)
+				)
+			)
+			(text "(Pins furthest from edge)"
+				(at 8.763 17.272 0)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+					(justify top)
+				)
+			)
+			(text "BOTTOM ROW"
+				(at -4.064 18.288 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify top)
+				)
+			)
+			(text "GND"
+				(at -6.35 4.445 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "GND"
+				(at 11.43 4.445 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "TOP ROW"
+				(at 8.763 18.288 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify top)
+				)
+			)
+			(text "VCC"
+				(at -6.35 1.905 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "VCC"
+				(at 11.43 1.905 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+		)
+		(symbol "QMOD-Device-x2-Type-Generic-Alt_0_1"
+			(rectangle
+				(start 5.08 15.24)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "QMOD-Device-x2-Type-Generic-Alt_1_1"
+			(pin passive inverted
+				(at -7.62 13.97 0)
+				(length 7.62)
+				(name "P7"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 12.7 3.81 180)
+				(length 7.62)
+				(name "P5"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 1.27 0)
+				(length 7.62)
+				(name "P12"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 12.7 1.27 180)
+				(length 7.62)
+				(name "P6"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 12.7 13.97 180)
+				(length 7.62)
+				(name "P1"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 11.43 0)
+				(length 7.62)
+				(name "P8"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 12.7 11.43 180)
+				(length 7.62)
+				(name "P2"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 8.89 0)
+				(length 7.62)
+				(name "P9"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 12.7 8.89 180)
+				(length 7.62)
+				(name "P3"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 6.35 0)
+				(length 7.62)
+				(name "P10"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 12.7 6.35 180)
+				(length 7.62)
+				(name "10"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 3.81 0)
+				(length 7.62)
+				(name "P11"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+		)
+	)
+)
