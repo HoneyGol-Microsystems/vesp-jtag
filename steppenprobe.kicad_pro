@@ -60,8 +60,6 @@
         }
       ],
       "drc_exclusions": [
-        "silk_over_copper|100000000|85100000|00000000-0000-0000-0000-00005c83bd24|830aee7f-dfce-42cd-85ef-6370f6dc02f5",
-        "silk_over_copper|100000000|86400000|00000000-0000-0000-0000-00005c83bd24|f321809c-ab7a-4356-9b11-4c0d46c421ba",
         "silk_over_copper|120405000|50000000|1533b475-c834-40d3-ae2c-55eb46ae810f|af35a153-e4cc-4cb5-9b0a-a247aa9a27b2",
         "silk_over_copper|129595000|50000000|1533b475-c834-40d3-ae2c-55eb46ae810f|581488ee-fe1f-43d1-a23d-526666571191"
       ],
@@ -141,7 +139,7 @@
         "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15,
-        "min_via_annular_width": 0.05,
+        "min_via_annular_width": 0.45,
         "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -449,7 +447,7 @@
       "no_connect_dangling": "error",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -495,6 +493,23 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "InPower",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -523,7 +538,7 @@
         "pattern": "+3V3"
       },
       {
-        "netclass": "Power",
+        "netclass": "InPower",
         "pattern": "+5V"
       },
       {
@@ -539,7 +554,7 @@
         "pattern": "GND"
       },
       {
-        "netclass": "Power",
+        "netclass": "InPower",
         "pattern": "VBUS"
       },
       {
