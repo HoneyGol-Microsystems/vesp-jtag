@@ -1,5 +1,5 @@
 # ![vesp-jtag logo](logos/vesp_logo.png)
-Open Source Hardware JTAG/UART/GPIO interface board based on amazing [Steppenprobe](https://github.com/diegoherranz/steppenprobe) containing Pmod-compatible connector.
+An Open Source Hardware JTAG/UART/GPIO interface board based on the amazing [Steppenprobe](https://github.com/diegoherranz/steppenprobe) containing Pmod-compatible connector.
 
 ## Basic specs:
 
