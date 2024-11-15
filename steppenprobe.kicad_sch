@@ -9915,7 +9915,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C25804"
+		(property "Tolerance" "5%"
 			(at 138.43 140.97 0)
 			(effects
 				(font
@@ -9924,7 +9924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Sim.Enable" ""
 			(at 138.43 140.97 0)
 			(effects
 				(font
@@ -10068,6 +10068,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 220.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf672f56-2d68-4c6c-a783-23e23c937b72")
 		)
@@ -10197,7 +10206,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C21190"
+		(property "Tolerance" "5%"
 			(at 229.87 182.88 0)
 			(effects
 				(font
@@ -10206,7 +10215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Sim.Enable" ""
 			(at 229.87 182.88 0)
 			(effects
 				(font
@@ -10285,15 +10294,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C12519"
-			(at 298.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "74LVC1G125GW,125"
 			(at 298.45 102.87 0)
 			(effects
@@ -10322,6 +10322,15 @@
 			)
 		)
 		(property "Manufacturer2" "Texas Instruments"
+			(at 298.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 298.45 102.87 0)
 			(effects
 				(font
@@ -10408,7 +10417,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C14663"
+		(property "MPN" "CL21B104KACNNND"
 			(at 198.12 59.69 0)
 			(effects
 				(font
@@ -10417,7 +10426,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "Manufacturer" "Murata Electronics"
 			(at 198.12 59.69 0)
 			(effects
 				(font
@@ -10426,7 +10435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "MPN2" ""
 			(at 198.12 59.69 0)
 			(effects
 				(font
@@ -10435,16 +10444,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL10B104KB8NNNC"
-			(at 198.12 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer2" "Samsung Electro-Mechanics"
+		(property "Manufacturer2" ""
 			(at 198.12 59.69 0)
 			(effects
 				(font
@@ -10463,6 +10463,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 198.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 198.12 59.69 0)
 			(effects
 				(font
@@ -10541,15 +10550,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C12519"
-			(at 298.45 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "74LVC1G125GW,125"
 			(at 298.45 187.96 0)
 			(effects
@@ -10578,6 +10578,15 @@
 			)
 		)
 		(property "Manufacturer2" "Texas Instruments"
+			(at 298.45 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 298.45 187.96 0)
 			(effects
 				(font
@@ -10662,7 +10671,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C85831"
+		(property "MPN2" ""
 			(at 138.43 54.61 0)
 			(effects
 				(font
@@ -10671,7 +10680,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "BKP1608HS121-T"
+		(property "Manufacturer2" ""
 			(at 138.43 54.61 0)
 			(effects
 				(font
@@ -10680,16 +10689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" "Taiyo Yuden"
-			(at 138.43 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BLM18KG121TN1D"
+		(property "MPN" "BLM21PG121SZ1D"
 			(at 138.43 54.61 0)
 			(effects
 				(font
@@ -10699,6 +10699,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 138.43 54.61 0)
 			(effects
 				(font
@@ -10776,7 +10785,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C1656"
+		(property "MPN" "CL21C270JCANNNC"
 			(at 142.24 199.39 0)
 			(effects
 				(font
@@ -10785,7 +10794,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C270J5GAC"
+		(property "Manufacturer" "Murata Electronics"
 			(at 142.24 199.39 0)
 			(effects
 				(font
@@ -10794,7 +10803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "MPN2" ""
 			(at 142.24 199.39 0)
 			(effects
 				(font
@@ -10803,16 +10812,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL10C270JB8NNNC"
-			(at 142.24 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer2" "Samsung Electro-Mechanics"
+		(property "Manufacturer2" ""
 			(at 142.24 199.39 0)
 			(effects
 				(font
@@ -10831,6 +10831,15 @@
 			)
 		)
 		(property "Type" "C0G"
+			(at 142.24 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 142.24 199.39 0)
 			(effects
 				(font
@@ -10916,6 +10925,15 @@
 			)
 		)
 		(property "Manufacturer" "GCT"
+			(at 33.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 33.02 130.81 0)
 			(effects
 				(font
@@ -11160,7 +11178,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C21190"
+		(property "Tolerance" "5%"
 			(at 229.87 194.31 0)
 			(effects
 				(font
@@ -11169,7 +11187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Sim.Enable" ""
 			(at 229.87 194.31 0)
 			(effects
 				(font
@@ -11245,7 +11263,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C22775"
+		(property "Tolerance" "5%"
 			(at 361.95 76.2 0)
 			(effects
 				(font
@@ -11254,7 +11272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Sim.Enable" ""
 			(at 361.95 76.2 0)
 			(effects
 				(font
@@ -11332,7 +11350,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C1656"
+		(property "MPN" "CL21C270JCANNNC"
 			(at 133.35 199.39 0)
 			(effects
 				(font
@@ -11341,7 +11359,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C270J5GAC"
+		(property "Manufacturer" "Murata Electronics"
 			(at 133.35 199.39 0)
 			(effects
 				(font
@@ -11350,7 +11368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "MPN2" ""
 			(at 133.35 199.39 0)
 			(effects
 				(font
@@ -11359,16 +11377,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL10C270JB8NNNC"
-			(at 133.35 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer2" "Samsung Electro-Mechanics"
+		(property "Manufacturer2" ""
 			(at 133.35 199.39 0)
 			(effects
 				(font
@@ -11387,6 +11396,15 @@
 			)
 		)
 		(property "Type" "C0G"
+			(at 133.35 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 133.35 199.39 0)
 			(effects
 				(font
@@ -11464,6 +11482,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 19.05 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -11527,7 +11554,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C14663"
+		(property "MPN" "CL21B104KACNNND"
 			(at 209.55 80.01 0)
 			(effects
 				(font
@@ -11536,7 +11563,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "Manufacturer" "Murata Electronics"
 			(at 209.55 80.01 0)
 			(effects
 				(font
@@ -11545,7 +11572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "MPN2" ""
 			(at 209.55 80.01 0)
 			(effects
 				(font
@@ -11554,16 +11581,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL10B104KB8NNNC"
-			(at 209.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer2" "Samsung Electro-Mechanics"
+		(property "Manufacturer2" ""
 			(at 209.55 80.01 0)
 			(effects
 				(font
@@ -11582,6 +11600,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 209.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 209.55 80.01 0)
 			(effects
 				(font
@@ -11722,7 +11749,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C22775"
+		(property "Tolerance" "5%"
 			(at 384.81 35.56 0)
 			(effects
 				(font
@@ -11731,7 +11758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Sim.Enable" ""
 			(at 384.81 35.56 0)
 			(effects
 				(font
@@ -11807,15 +11834,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C85364"
-			(at 41.91 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer2" "ProTek Devices"
 			(at 41.91 182.88 0)
 			(effects
@@ -11844,6 +11862,15 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
+			(at 41.91 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 41.91 182.88 0)
 			(effects
 				(font
@@ -12386,7 +12413,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C21190"
+		(property "Tolerance" "5%"
 			(at 233.68 116.84 0)
 			(effects
 				(font
@@ -12395,7 +12422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Sim.Enable" ""
 			(at 233.68 116.84 0)
 			(effects
 				(font
@@ -12603,6 +12630,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 36.83 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -12658,6 +12694,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 19.05 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 19.05 271.78 0)
 			(effects
 				(font
@@ -12859,7 +12904,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C14663"
+		(property "MPN" "CL21B104KACNNND"
 			(at 209.55 59.69 0)
 			(effects
 				(font
@@ -12868,7 +12913,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "Manufacturer" "Murata Electronics"
 			(at 209.55 59.69 0)
 			(effects
 				(font
@@ -12877,7 +12922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "MPN2" ""
 			(at 209.55 59.69 0)
 			(effects
 				(font
@@ -12886,16 +12931,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL10B104KB8NNNC"
-			(at 209.55 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer2" "Samsung Electro-Mechanics"
+		(property "Manufacturer2" ""
 			(at 209.55 59.69 0)
 			(effects
 				(font
@@ -12914,6 +12950,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 209.55 59.69 0)
 			(effects
 				(font
@@ -12989,7 +13034,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C85831"
+		(property "MPN2" ""
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -12998,7 +13043,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "BKP1608HS121-T"
+		(property "Manufacturer2" ""
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -13007,16 +13052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" "Taiyo Yuden"
-			(at 138.43 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BLM18KG121TN1D"
+		(property "MPN" "BLM21PG121SZ1D"
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -13026,6 +13062,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -13103,7 +13148,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C23186"
+		(property "Tolerance" "5%"
 			(at 63.5 137.16 0)
 			(effects
 				(font
@@ -13112,7 +13157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Sim.Enable" ""
 			(at 63.5 137.16 0)
 			(effects
 				(font
@@ -13190,7 +13235,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C14663"
+		(property "MPN" "CL21B104KACNNND"
 			(at 220.98 80.01 0)
 			(effects
 				(font
@@ -13199,7 +13244,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "Manufacturer" "Murata Electronics"
 			(at 220.98 80.01 0)
 			(effects
 				(font
@@ -13208,7 +13253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "MPN2" ""
 			(at 220.98 80.01 0)
 			(effects
 				(font
@@ -13217,16 +13262,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL10B104KB8NNNC"
-			(at 220.98 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer2" "Samsung Electro-Mechanics"
+		(property "Manufacturer2" ""
 			(at 220.98 80.01 0)
 			(effects
 				(font
@@ -13245,6 +13281,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 220.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 220.98 80.01 0)
 			(effects
 				(font
@@ -13340,7 +13385,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4c2aac39-6d3e-4575-8639-debc2605057e")
 		(property "Reference" "LOGO1"
 			(at 394.97 253.365 0)
@@ -13378,6 +13423,15 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
+			(at 394.97 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 394.97 260.35 0)
 			(effects
 				(font
@@ -13577,7 +13631,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C22775"
+		(property "Tolerance" "5%"
 			(at 361.95 88.9 0)
 			(effects
 				(font
@@ -13586,7 +13640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Sim.Enable" ""
 			(at 361.95 88.9 0)
 			(effects
 				(font
@@ -13664,16 +13718,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C19666"
-			(at 64.77 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MPN" "CL21A475KPFNNNG"
 			(at 64.77 86.36 0)
 			(effects
 				(font
@@ -13691,7 +13736,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "EMK107ABJ475KA-T"
+		(property "MPN2" ""
 			(at 64.77 86.36 0)
 			(effects
 				(font
@@ -13700,7 +13745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" "Taiyo Yuden"
+		(property "Manufacturer2" ""
 			(at 64.77 86.36 0)
 			(effects
 				(font
@@ -13719,6 +13764,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 64.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 64.77 86.36 0)
 			(effects
 				(font
@@ -13796,16 +13850,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C19666"
-			(at 147.32 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MPN" "CL21A475KPFNNNG"
 			(at 147.32 59.69 0)
 			(effects
 				(font
@@ -13823,7 +13868,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "EMK107ABJ475KA-T"
+		(property "MPN2" ""
 			(at 147.32 59.69 0)
 			(effects
 				(font
@@ -13832,7 +13877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" "Taiyo Yuden"
+		(property "Manufacturer2" ""
 			(at 147.32 59.69 0)
 			(effects
 				(font
@@ -13851,6 +13896,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 147.32 59.69 0)
 			(effects
 				(font
@@ -13891,7 +13945,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green LED"
 			(at 121.92 92.71 90)
 			(effects
 				(font
@@ -13926,7 +13980,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C72043"
+		(property "MPN" "150080GS75000"
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -13935,7 +13989,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "19-217/GHC-YR1S2/3T"
+		(property "Manufacturer" "Wurth Electronic"
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -13944,7 +13998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Everlight Elec"
+		(property "MPN2" ""
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -13953,7 +14007,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "150060GS75000"
+		(property "Manufacturer2" ""
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -13962,7 +14016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" "Wurth Electronic"
+		(property "Sim.Enable" ""
 			(at 118.11 91.44 0)
 			(effects
 				(font
@@ -14236,6 +14290,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 36.83 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -14308,7 +14371,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC_PN" "C22790"
+		(property "Sim.Enable" ""
 			(at 120.65 143.51 0)
 			(effects
 				(font
@@ -14451,7 +14514,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C14663"
+		(property "MPN" "CL21B104KACNNND"
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -14460,7 +14523,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "Manufacturer" "Murata Electronics"
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -14469,7 +14532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "MPN2" ""
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -14478,16 +14541,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL10B104KB8NNNC"
-			(at 198.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer2" "Samsung Electro-Mechanics"
+		(property "Manufacturer2" ""
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -14506,6 +14560,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 198.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -14583,7 +14646,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C14663"
+		(property "MPN" "CL21B104KACNNND"
 			(at 134.62 113.03 0)
 			(effects
 				(font
@@ -14592,7 +14655,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "Manufacturer" "Murata Electronics"
 			(at 134.62 113.03 0)
 			(effects
 				(font
@@ -14601,7 +14664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "MPN2" ""
 			(at 134.62 113.03 0)
 			(effects
 				(font
@@ -14610,16 +14673,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL10B104KB8NNNC"
-			(at 134.62 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer2" "Samsung Electro-Mechanics"
+		(property "Manufacturer2" ""
 			(at 134.62 113.03 0)
 			(effects
 				(font
@@ -14638,6 +14692,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 134.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 134.62 113.03 0)
 			(effects
 				(font
@@ -14778,7 +14841,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C22775"
+		(property "Tolerance" "5%"
 			(at 361.95 78.74 0)
 			(effects
 				(font
@@ -14787,7 +14850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Sim.Enable" ""
 			(at 361.95 78.74 0)
 			(effects
 				(font
@@ -14995,15 +15058,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C9002"
-			(at 142.24 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "ABM8-12.000MHZ-20-B1U-T"
 			(at 142.24 186.69 0)
 			(effects
@@ -15041,6 +15095,15 @@
 			)
 		)
 		(property "Tolerance" "10PPM"
+			(at 142.24 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 142.24 186.69 0)
 			(effects
 				(font
@@ -15384,6 +15447,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 19.05 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -15512,7 +15584,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C14663"
+		(property "MPN" "CL21B104KACNNND"
 			(at 311.15 217.17 0)
 			(effects
 				(font
@@ -15521,7 +15593,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "Manufacturer" "Murata Electronics"
 			(at 311.15 217.17 0)
 			(effects
 				(font
@@ -15530,7 +15602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "MPN2" ""
 			(at 311.15 217.17 0)
 			(effects
 				(font
@@ -15539,16 +15611,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL10B104KB8NNNC"
-			(at 311.15 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer2" "Samsung Electro-Mechanics"
+		(property "Manufacturer2" ""
 			(at 311.15 217.17 0)
 			(effects
 				(font
@@ -15567,6 +15630,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 311.15 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 311.15 217.17 0)
 			(effects
 				(font
@@ -15737,7 +15809,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green LED"
 			(at 251.46 196.85 0)
 			(effects
 				(font
@@ -15773,7 +15845,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C72043"
+		(property "MPN" "150080GS75000"
 			(at 248.92 194.31 0)
 			(effects
 				(font
@@ -15782,7 +15854,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "19-217/GHC-YR1S2/3T"
+		(property "Manufacturer" "Wurth Electronic"
 			(at 248.92 194.31 0)
 			(effects
 				(font
@@ -15791,7 +15863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Everlight Elec"
+		(property "MPN2" ""
 			(at 248.92 194.31 0)
 			(effects
 				(font
@@ -15800,7 +15872,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "150060GS75000"
+		(property "Manufacturer2" ""
 			(at 248.92 194.31 0)
 			(effects
 				(font
@@ -15809,7 +15881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" "Wurth Electronic"
+		(property "Sim.Enable" ""
 			(at 248.92 194.31 0)
 			(effects
 				(font
@@ -15915,7 +15987,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White LED"
 			(at 247.3325 138.43 0)
 			(effects
 				(font
@@ -15943,6 +16015,51 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 248.92 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "IN-S85AT5UW"
+			(at 248.92 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" ""
+			(at 248.92 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 248.92 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" ""
+			(at 248.92 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 248.92 142.24 0)
 			(effects
 				(font
@@ -16018,7 +16135,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C22775"
+		(property "Tolerance" "5%"
 			(at 361.95 71.12 0)
 			(effects
 				(font
@@ -16027,7 +16144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Sim.Enable" ""
 			(at 361.95 71.12 0)
 			(effects
 				(font
@@ -16105,7 +16222,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C14663"
+		(property "MPN" "CL21B104KACNNND"
 			(at 158.75 80.01 0)
 			(effects
 				(font
@@ -16114,7 +16231,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "Manufacturer" "Murata Electronics"
 			(at 158.75 80.01 0)
 			(effects
 				(font
@@ -16123,7 +16240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "MPN2" ""
 			(at 158.75 80.01 0)
 			(effects
 				(font
@@ -16132,16 +16249,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL10B104KB8NNNC"
-			(at 158.75 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer2" "Samsung Electro-Mechanics"
+		(property "Manufacturer2" ""
 			(at 158.75 80.01 0)
 			(effects
 				(font
@@ -16160,6 +16268,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 158.75 80.01 0)
 			(effects
 				(font
@@ -16302,16 +16419,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C19666"
-			(at 147.32 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MPN" "CL21A475KPFNNNG"
 			(at 147.32 113.03 0)
 			(effects
 				(font
@@ -16329,7 +16437,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "EMK107ABJ475KA-T"
+		(property "MPN2" ""
 			(at 147.32 113.03 0)
 			(effects
 				(font
@@ -16338,7 +16446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" "Taiyo Yuden"
+		(property "Manufacturer2" ""
 			(at 147.32 113.03 0)
 			(effects
 				(font
@@ -16357,6 +16465,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 147.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 147.32 113.03 0)
 			(effects
 				(font
@@ -16493,6 +16610,15 @@
 			)
 		)
 		(property "Description" "PMOD Device Type 1A (Expanded/Dual GPIO)"
+			(at 397.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 397.51 85.09 0)
 			(effects
 				(font
@@ -16665,7 +16791,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C14663"
+		(property "MPN" "CL21B104KACNNND"
 			(at 220.98 59.69 0)
 			(effects
 				(font
@@ -16674,7 +16800,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "Manufacturer" "Murata Electronics"
 			(at 220.98 59.69 0)
 			(effects
 				(font
@@ -16683,7 +16809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "MPN2" ""
 			(at 220.98 59.69 0)
 			(effects
 				(font
@@ -16692,16 +16818,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL10B104KB8NNNC"
-			(at 220.98 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer2" "Samsung Electro-Mechanics"
+		(property "Manufacturer2" ""
 			(at 220.98 59.69 0)
 			(effects
 				(font
@@ -16720,6 +16837,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 220.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 220.98 59.69 0)
 			(effects
 				(font
@@ -16925,7 +17051,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C22775"
+		(property "Tolerance" "5%"
 			(at 361.95 91.44 0)
 			(effects
 				(font
@@ -16934,7 +17060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Sim.Enable" ""
 			(at 361.95 91.44 0)
 			(effects
 				(font
@@ -17002,6 +17128,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 231.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 231.14 142.24 0)
 			(effects
 				(font
@@ -17144,7 +17279,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C21190"
+		(property "Tolerance" "5%"
 			(at 118.11 82.55 0)
 			(effects
 				(font
@@ -17153,7 +17288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Sim.Enable" ""
 			(at 118.11 82.55 0)
 			(effects
 				(font
@@ -17295,16 +17430,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C5446"
-			(at 83.82 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "XC6206P332MR"
+		(property "MPN" "XC6206P332MR-G"
 			(at 83.82 78.74 0)
 			(effects
 				(font
@@ -17332,6 +17458,15 @@
 			)
 		)
 		(property "Manufacturer2" "Diodes Incorporated"
+			(at 83.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 83.82 78.74 0)
 			(effects
 				(font
@@ -17475,6 +17610,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 231.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "77505875-8de5-49c5-89e4-1324b10d09d1")
 		)
@@ -17544,7 +17688,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C14663"
+		(property "MPN" "CL21B104KACNNND"
 			(at 283.21 217.17 0)
 			(effects
 				(font
@@ -17553,7 +17697,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "Manufacturer" "Murata Electronics"
 			(at 283.21 217.17 0)
 			(effects
 				(font
@@ -17562,7 +17706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "MPN2" ""
 			(at 283.21 217.17 0)
 			(effects
 				(font
@@ -17571,16 +17715,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL10B104KB8NNNC"
-			(at 283.21 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer2" "Samsung Electro-Mechanics"
+		(property "Manufacturer2" ""
 			(at 283.21 217.17 0)
 			(effects
 				(font
@@ -17599,6 +17734,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 283.21 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 283.21 217.17 0)
 			(effects
 				(font
@@ -17676,7 +17820,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C14663"
+		(property "MPN" "CL21B104KACNNND"
 			(at 232.41 80.01 0)
 			(effects
 				(font
@@ -17685,7 +17829,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "Manufacturer" "Murata Electronics"
 			(at 232.41 80.01 0)
 			(effects
 				(font
@@ -17694,7 +17838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "MPN2" ""
 			(at 232.41 80.01 0)
 			(effects
 				(font
@@ -17703,16 +17847,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL10B104KB8NNNC"
-			(at 232.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer2" "Samsung Electro-Mechanics"
+		(property "Manufacturer2" ""
 			(at 232.41 80.01 0)
 			(effects
 				(font
@@ -17731,6 +17866,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 232.41 80.01 0)
 			(effects
 				(font
@@ -17806,7 +17950,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C21190"
+		(property "Tolerance" "5%"
 			(at 229.87 177.8 0)
 			(effects
 				(font
@@ -17815,7 +17959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Sim.Enable" ""
 			(at 229.87 177.8 0)
 			(effects
 				(font
@@ -17893,16 +18037,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C19666"
-			(at 99.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MPN" "CL21A475KPFNNNG"
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -17920,7 +18055,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "EMK107ABJ475KA-T"
+		(property "MPN2" ""
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -17929,7 +18064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" "Taiyo Yuden"
+		(property "Manufacturer2" ""
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -17948,6 +18083,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -18025,15 +18169,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C12519"
-			(at 300.99 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "74LVC1G125GW,125"
 			(at 300.99 73.66 0)
 			(effects
@@ -18062,6 +18197,15 @@
 			)
 		)
 		(property "Manufacturer2" "Texas Instruments"
+			(at 300.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 300.99 73.66 0)
 			(effects
 				(font
@@ -18148,15 +18292,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C12519"
-			(at 300.99 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "74LVC1G125GW,125"
 			(at 300.99 160.02 0)
 			(effects
@@ -18185,6 +18320,15 @@
 			)
 		)
 		(property "Manufacturer2" "Texas Instruments"
+			(at 300.99 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 300.99 160.02 0)
 			(effects
 				(font
@@ -18234,7 +18378,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Amber LED"
 			(at 251.46 185.42 0)
 			(effects
 				(font
@@ -18270,7 +18414,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C72043"
+		(property "MPN" "150080AS75000"
 			(at 248.92 182.88 0)
 			(effects
 				(font
@@ -18279,7 +18423,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "19-217/GHC-YR1S2/3T"
+		(property "Manufacturer" "Wurth Electronic"
 			(at 248.92 182.88 0)
 			(effects
 				(font
@@ -18288,7 +18432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Everlight Elec"
+		(property "MPN2" ""
 			(at 248.92 182.88 0)
 			(effects
 				(font
@@ -18297,7 +18441,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "150060GS75000"
+		(property "Manufacturer2" ""
 			(at 248.92 182.88 0)
 			(effects
 				(font
@@ -18306,7 +18450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" "Wurth Electronic"
+		(property "Sim.Enable" ""
 			(at 248.92 182.88 0)
 			(effects
 				(font
@@ -18465,7 +18609,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C27882"
+		(property "Sim.Enable" ""
 			(at 182.88 151.13 0)
 			(effects
 				(font
@@ -18729,15 +18873,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C12519"
-			(at 302.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "74LVC1G125GW,125"
 			(at 302.26 41.91 0)
 			(effects
@@ -18766,6 +18901,15 @@
 			)
 		)
 		(property "Manufacturer2" "Texas Instruments"
+			(at 302.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 302.26 41.91 0)
 			(effects
 				(font
@@ -18880,7 +19024,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Amber LED"
 			(at 251.46 175.26 0)
 			(effects
 				(font
@@ -18916,7 +19060,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C72043"
+		(property "MPN" "150080AS75000"
 			(at 248.92 177.8 0)
 			(effects
 				(font
@@ -18925,7 +19069,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "19-217/GHC-YR1S2/3T"
+		(property "Manufacturer" "Wurth Electronic"
 			(at 248.92 177.8 0)
 			(effects
 				(font
@@ -18934,7 +19078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Everlight Elec"
+		(property "MPN2" ""
 			(at 248.92 177.8 0)
 			(effects
 				(font
@@ -18943,7 +19087,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "150060GS75000"
+		(property "Manufacturer2" ""
 			(at 248.92 177.8 0)
 			(effects
 				(font
@@ -18952,7 +19096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" "Wurth Electronic"
+		(property "Sim.Enable" ""
 			(at 248.92 177.8 0)
 			(effects
 				(font
@@ -19093,7 +19237,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C22775"
+		(property "Tolerance" "5%"
 			(at 361.95 73.66 0)
 			(effects
 				(font
@@ -19102,7 +19246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Sim.Enable" ""
 			(at 361.95 73.66 0)
 			(effects
 				(font
@@ -19237,6 +19381,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 397.51 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 397.51 167.64 0)
 			(effects
 				(font
@@ -19409,6 +19562,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 57.15 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -19537,7 +19699,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C14663"
+		(property "MPN" "CL21B104KACNNND"
 			(at 297.18 217.17 0)
 			(effects
 				(font
@@ -19546,7 +19708,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "Manufacturer" "Murata Electronics"
 			(at 297.18 217.17 0)
 			(effects
 				(font
@@ -19555,7 +19717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "MPN2" ""
 			(at 297.18 217.17 0)
 			(effects
 				(font
@@ -19564,16 +19726,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL10B104KB8NNNC"
-			(at 297.18 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer2" "Samsung Electro-Mechanics"
+		(property "Manufacturer2" ""
 			(at 297.18 217.17 0)
 			(effects
 				(font
@@ -19592,6 +19745,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 297.18 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 297.18 217.17 0)
 			(effects
 				(font
@@ -19734,16 +19896,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C19666"
-			(at 147.32 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MPN" "CL21A475KPFNNNG"
 			(at 147.32 80.01 0)
 			(effects
 				(font
@@ -19761,7 +19914,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "EMK107ABJ475KA-T"
+		(property "MPN2" ""
 			(at 147.32 80.01 0)
 			(effects
 				(font
@@ -19770,7 +19923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" "Taiyo Yuden"
+		(property "Manufacturer2" ""
 			(at 147.32 80.01 0)
 			(effects
 				(font
@@ -19789,6 +19942,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 147.32 80.01 0)
 			(effects
 				(font
@@ -19866,7 +20028,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C14663"
+		(property "MPN" "CL21B104KACNNND"
 			(at 158.75 59.69 0)
 			(effects
 				(font
@@ -19875,7 +20037,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "Manufacturer" "Murata Electronics"
 			(at 158.75 59.69 0)
 			(effects
 				(font
@@ -19884,7 +20046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "MPN2" ""
 			(at 158.75 59.69 0)
 			(effects
 				(font
@@ -19893,16 +20055,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL10B104KB8NNNC"
-			(at 158.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer2" "Samsung Electro-Mechanics"
+		(property "Manufacturer2" ""
 			(at 158.75 59.69 0)
 			(effects
 				(font
@@ -19921,6 +20074,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 158.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 158.75 59.69 0)
 			(effects
 				(font
@@ -20127,7 +20289,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C85831"
+		(property "MPN2" ""
 			(at 58.42 78.74 0)
 			(effects
 				(font
@@ -20136,7 +20298,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "BKP1608HS121-T"
+		(property "Manufacturer2" ""
 			(at 58.42 78.74 0)
 			(effects
 				(font
@@ -20145,16 +20307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" "Taiyo Yuden"
-			(at 58.42 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BLM18KG121TN1D"
+		(property "MPN" "BLM21PG121SZ1D"
 			(at 58.42 78.74 0)
 			(effects
 				(font
@@ -20164,6 +20317,15 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
+			(at 58.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 58.42 78.74 0)
 			(effects
 				(font
@@ -20241,16 +20403,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C19666"
-			(at 374.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MPN" "CL21A475KPFNNNG"
 			(at 374.65 40.64 0)
 			(effects
 				(font
@@ -20268,7 +20421,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "EMK107ABJ475KA-T"
+		(property "MPN2" ""
 			(at 374.65 40.64 0)
 			(effects
 				(font
@@ -20277,7 +20430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" "Taiyo Yuden"
+		(property "Manufacturer2" ""
 			(at 374.65 40.64 0)
 			(effects
 				(font
@@ -20296,6 +20449,15 @@
 			)
 		)
 		(property "Type" "X5R/X7R"
+			(at 374.65 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 374.65 40.64 0)
 			(effects
 				(font
@@ -20439,6 +20601,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 220.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fa17bd4-23af-495d-84c8-95f8b6beb5a8")
 		)
@@ -20497,6 +20668,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 57.15 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 57.15 276.86 0)
 			(effects
 				(font
@@ -20633,7 +20813,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C23186"
+		(property "Tolerance" "5%"
 			(at 57.15 137.16 0)
 			(effects
 				(font
@@ -20642,7 +20822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Sim.Enable" ""
 			(at 57.15 137.16 0)
 			(effects
 				(font
@@ -20683,7 +20863,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Blue LED"
 			(at 259.08 118.11 0)
 			(effects
 				(font
@@ -20719,7 +20899,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C72043"
+		(property "MPN" "150080BS75000"
 			(at 255.27 116.84 0)
 			(effects
 				(font
@@ -20728,7 +20908,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "19-217/GHC-YR1S2/3T"
+		(property "Manufacturer" "Wurth Electronic"
 			(at 255.27 116.84 0)
 			(effects
 				(font
@@ -20737,7 +20917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Everlight Elec"
+		(property "MPN2" ""
 			(at 255.27 116.84 0)
 			(effects
 				(font
@@ -20746,7 +20926,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "150060GS75000"
+		(property "Manufacturer2" ""
 			(at 255.27 116.84 0)
 			(effects
 				(font
@@ -20755,7 +20935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" "Wurth Electronic"
+		(property "Sim.Enable" ""
 			(at 255.27 116.84 0)
 			(effects
 				(font
@@ -20833,15 +21013,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC_PN" "C12519"
-			(at 300.99 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "74LVC1G125GW,125"
 			(at 300.99 132.08 0)
 			(effects
@@ -20870,6 +21041,15 @@
 			)
 		)
 		(property "Manufacturer2" "Texas Instruments"
+			(at 300.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 300.99 132.08 0)
 			(effects
 				(font
@@ -21505,7 +21685,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "White LED"
 			(at 247.3325 133.35 0)
 			(effects
 				(font
@@ -21533,6 +21713,51 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 248.92 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "IN-S85AT5UW"
+			(at 248.92 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" ""
+			(at 248.92 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 248.92 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" ""
+			(at 248.92 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 248.92 137.16 0)
 			(effects
 				(font
