@@ -5,14 +5,14 @@ An Open Source Hardware JTAG/UART/GPIO interface board based on the amazing [Ste
 
 - Open Source Hardware and designed in [KiCad](https://kicad.org).
 - Majority of footprints have easy to solder 0805 packages.
-- [FT2232H](https://ftdichip.com/products/ft2232hl)-based,
+- [FT2232H](https://ftdichip.com/products/ft2232hl)-based.
 - Simultaneous operation of JTAG/UART or GPIO/UART (software-configurable).
 - Standard Pmod connector for direct connection to a compatible FPGA.
+- Signals also available on 2.54 mm pin header to work with any custom pinout.
 - USB powered: no power supply needed.
 - USB type-C receptacle: more convenient (reversible) and future-proof.
-- Signals also available on 2.54 mm pin header to work with any custom pinout.
 - 2 GPIO and 2 user-controllable LEDs.
-- I/O buffers for protection and to be able to use a wide voltage range (1.65 V to 5.5 V).
+- I/O buffers for protection and compatible with a wide voltage range (1.65 V to 5.5 V).
 - Descriptive LED indicators.
 - (TODO) OpenOCD compatibility.
 
@@ -25,10 +25,10 @@ See [releases](https://github.com/HoneyGol-Microsystems/vesp-jtag/releases).
 
 The FT2232H has 2 independent channels. In this board:
 
-- Channel A: Used as JTAG or GPIOs
-- Channel B: Used as UART.
+- Channel A: Used as a JTAG or GPIOs
+- Channel B: Used as an UART.
 
-After enumeration, both channels will default to UART mode, so on a Linux system they will show up as `/dev/ttyUSB0` and `/dev/ttyUSB1`. When channel A gets reconfigured to MPSSE mode (e.g. when using OpenOCD with it), then `/dev/ttyUSB0` will disappear and channel B will remain as `/dev/ttyUSB1`.
+After enumeration, both channels will default to the UART mode, so on a Linux system they will show up as `/dev/ttyUSB0` and `/dev/ttyUSB1`. When the channel A gets reconfigured to a MPSSE mode (e.g. when using OpenOCD with it), then `/dev/ttyUSB0` will disappear and the channel B will remain as `/dev/ttyUSB1`.
 
 ## 3D renders
 
